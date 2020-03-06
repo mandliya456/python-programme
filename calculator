@@ -1,0 +1,40 @@
+def add(x,y):
+    return x+y
+def subtract(x,y):
+    return x-y
+def multiply (x,y):
+    return x*y
+def divide (x,y):
+    return x/y
+t=1
+while(t==1):
+    print("enter the number")
+    x=int(input())
+    y=int(input())
+    print("enter the operation")
+    print("1. addition" "\n" "2. subtraction" "\n" "3. multiplication" "\n" "4. divide")
+    choice=(int(input()))
+    if (choice==1):
+        c=add(x,y)
+        print("result",c)
+    elif(choice==2):
+        c=subtract(x,y)
+        print("result",c)
+    elif(choice==3):
+        c=multiply(x,y)
+        print("result",c)
+    elif(choice==4):
+       c=divide(x,y)
+       print("result",c)
+    print("do you want to continue press 1 for continue and for no press 0")
+    ans=(int(input()))
+    if(ans==1):
+       t=1
+    else:
+       t=0
+        
+
+
+
+
+
